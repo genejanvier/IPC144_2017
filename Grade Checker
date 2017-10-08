@@ -1,0 +1,40 @@
+// Done by Won Ki "Eugene" Lee of IPC144-S1A
+// Question 2 - Number 4
+
+// Checking the grade based on the entered mark.
+// The input is entered upon the first message appears on the application.
+// The end result consists of 2 parts. The universal message "Your mark is *** is defined right underneath the overall rules."
+// The grade of the mark entered will be displayed after the entered value is appeared.
+
+
+#include <stdio.h>
+
+int main()
+{
+	int num;
+	printf("Enter the mark: ");
+	scanf_s("%d", &num);
+	printf("Your mark is %d\n\n", num);
+
+	if (num >= 75) {
+	printf("Grade A\n\n");
+		}
+
+	else if(num>=50) {
+		printf("Grade B\n\n");
+	}
+
+	else if(num >= 25) {
+		printf("Grade C\n\n");
+	}
+
+	else if(num >= 1) {
+		printf("Grade D\n\n");
+	}
+
+	else if(num == 0) {
+		printf("Youre mark is: %d\n. Dude you are FAILED\n\n", num);
+	}
+
+	return 0;
+}
