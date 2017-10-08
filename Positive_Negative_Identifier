@@ -1,0 +1,27 @@
+// This is done by Won Ki "Eugene" Lee of IPC144-S1A
+// Question 2 - Number 1
+
+// The rules after "if" and "else if" are assigned to compare the typed numbers to 0,
+// then displays the results according to the comparison.
+// I couldn't help but composing rather sarcastic result because that's my nature hehehe, I hope you understand.
+// It takes me more than double hours to another students in the class because I'm very bad with mathematics and logics.
+// I wish you could explain terminologies more easily, although I do appreciated how much details you're trying to cover at the class.
+// Thank you very much Sukhbir!!
+
+#include<stdio.h>
+
+int main() 
+{
+	int num;
+	printf("Please enter any number: ");
+	scanf_s("%d", &num);
+
+	if(num >= 0) {
+		printf("The number you've entered is super POSITIVE!!!!!!\n YAY!!!!!!!!!!!!!!\n\n");
+	}
+
+	else if(num <= 0) {
+		printf("You are very Negative person.\n according to the number\n you've entered is sooooo NEGATIVE\n\n");
+	}
+	return(0);
+}
